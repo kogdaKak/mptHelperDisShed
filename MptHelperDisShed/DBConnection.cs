@@ -62,7 +62,7 @@ namespace MptHelperDisShed
         qrEmployees = "SELECT [Id_Employee],[Surname],[Name],[Second_Name],[Employee_Number] from [dbo].[Employees]",
 
         //Представления
-         qrRaspredelenie_View = "SELECT [Employees].[Id_Employee] ,[Employees].[Name] ,[Employees].[Surname] ,[Employees].[Second_Name]  ,[Distribution].[Priority]" +
+         qrRaspredelenie_View = "SELECT [Distribution].[ID_Distribution] ,[Employees].[Name] ,[Employees].[Surname] ,[Employees].[Second_Name]  ,[Distribution].[Priority]" +
             ",[Territory_Аudiences].[Number_Cabinet] ,[Traning_Area].[Full_Name] FROM [dbo].[Distribution]" +
 
                 "INNER JOIN [dbo].[Territory_Аudiences] ON [Distribution].[Territory_Аudiences_ID] = [Territory_Аudiences].[ID_Territory_Аudiences]" +

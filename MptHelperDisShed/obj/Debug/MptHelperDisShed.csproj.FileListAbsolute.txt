@@ -13,3 +13,5 @@ C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperD
 C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed.csproj.GenerateResource.cache
 C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed.exe
 C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed.pdb
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\Distributon.g.cs
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\Distributon.baml

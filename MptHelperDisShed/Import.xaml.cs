@@ -801,6 +801,13 @@ namespace MptHelperDisShed
 
         }
 
+        private void btRaspredelenie_Click(object sender, RoutedEventArgs e)
+        {
+            Distributon main = new Distributon();
+            main.Show();
+            Hide();
+        }
+
         private void Window_Closed(object sender, EventArgs e)
         {
             this.Close();

@@ -35,6 +35,7 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <TextBox IsReadOnly="True" Grid.Row="0" Grid.Column="1" Grid.RowSpan="1" Grid.ColumnSpan="10" Height="30" Name="txtFilePath" Width="550" Background="White" FontSize="15" Opacity="1" VerticalContentAlignment="Top"/>
+        <Button Width="150" Grid.Row="0" Grid.Column="12" Grid.RowSpan="1" Grid.ColumnSpan="2" Name="btRaspredelenie" Content="Распределение" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="btRaspredelenie_Click" ></Button>
         <Button Width="150" Grid.Row="0" Grid.Column="12" Grid.RowSpan="1" Grid.ColumnSpan="2" Name="btImport" Content="Загрузить" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btImport_Click"></Button>
         <DataGrid AutoGenerateColumns="True" AutoGeneratingColumn="Employe_AutoGeneratingColumn" ColumnWidth="auto" IsReadOnly="True" Name="Employe" Grid.Row="2" Grid.Column="1" Grid.RowSpan="7" Grid.ColumnSpan="4"></DataGrid>
         <DataGrid AutoGenerateColumns="True" AutoGeneratingColumn="Group_AutoGeneratingColumn" ColumnWidth="auto" IsReadOnly="True" Name="Group" Grid.Row="2" Grid.Column="5" Grid.RowSpan="7" Grid.ColumnSpan="2"></DataGrid>
