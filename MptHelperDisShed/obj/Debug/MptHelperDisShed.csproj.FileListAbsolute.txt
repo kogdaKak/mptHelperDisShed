@@ -1,0 +1,15 @@
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\bin\Debug\MptHelperDisShed.exe.config
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\bin\Debug\MptHelperDisShed.exe
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\bin\Debug\MptHelperDisShed.pdb
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed.csprojAssemblyReference.cache
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed.csproj.ResolveComReference.cache
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\Import.g.cs
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\App.g.cs
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed_MarkupCompile.cache
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed_MarkupCompile.lref
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\Import.baml
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed.g.resources
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed.Properties.Resources.resources
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed.csproj.GenerateResource.cache
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed.exe
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed.pdb
