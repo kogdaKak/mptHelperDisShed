@@ -1,6 +1,7 @@
 ﻿<Window x:Class="MptHelperDisShed.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:design="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MptHelperDisShed"
@@ -27,16 +28,18 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition design:ColorZoneAssist.Background="Black"></ColumnDefinition>
+            <ColumnDefinition design:ColorZoneAssist.Background="Black"></ColumnDefinition>
+            <ColumnDefinition design:ColorZoneAssist.Background="Black"></ColumnDefinition>
+            <ColumnDefinition design:ColorZoneAssist.Background="Black"></ColumnDefinition>
+            <ColumnDefinition design:ColorZoneAssist.Background="Black"></ColumnDefinition>
+            <ColumnDefinition design:ColorZoneAssist.Background="Black"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <TextBox IsReadOnly="True" Grid.Row="0" Grid.Column="1" Grid.RowSpan="1" Grid.ColumnSpan="10" Height="30" Name="txtFilePath" Width="550" Background="White" FontSize="15" Opacity="1" VerticalContentAlignment="Top"/>
-        <Button Width="150" Grid.Row="0" Grid.Column="12" Grid.RowSpan="1" Grid.ColumnSpan="2" Name="btRaspredelenie" Content="Распределение" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="btRaspredelenie_Click" ></Button>
-        <Button Width="150" Grid.Row="0" Grid.Column="12" Grid.RowSpan="1" Grid.ColumnSpan="2" Name="btImport" Content="Загрузить" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btImport_Click"></Button>
+        <Button Width="150" Grid.Row="0" Grid.Column="12" Grid.RowSpan="1" Grid.ColumnSpan="2" Name="btRaspredelenie" Content="Распределение" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="btRaspredelenie_Click"
+                design:ButtonProgressAssist.IndicatorBackground="Blue" design:ButtonAssist.CornerRadius="10" ></Button>
+            <Button Width="150" Grid.Row="0" Grid.Column="12" Grid.RowSpan="1" Grid.ColumnSpan="2" Name="btImport" Content="Загрузить" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btImport_Click"
+                design:ButtonProgressAssist.IndicatorBackground="Blue" design:ButtonAssist.CornerRadius="10" ></Button>
         <DataGrid AutoGenerateColumns="True" AutoGeneratingColumn="Employe_AutoGeneratingColumn" ColumnWidth="auto" IsReadOnly="True" Name="Employe" Grid.Row="2" Grid.Column="1" Grid.RowSpan="7" Grid.ColumnSpan="4"></DataGrid>
         <DataGrid AutoGenerateColumns="True" AutoGeneratingColumn="Group_AutoGeneratingColumn" ColumnWidth="auto" IsReadOnly="True" Name="Group" Grid.Row="2" Grid.Column="5" Grid.RowSpan="7" Grid.ColumnSpan="2"></DataGrid>
         <DataGrid AutoGenerateColumns="True" AutoGeneratingColumn="Cabinetes_AutoGeneratingColumn" ColumnWidth="auto" IsReadOnly="True" Name="Cabinetes" Grid.Row="2" Grid.Column="7" Grid.RowSpan="7" Grid.ColumnSpan="2"></DataGrid>

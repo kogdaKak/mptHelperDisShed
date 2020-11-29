@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -93,15 +94,15 @@ namespace MptHelperDisShed
 
         private void btInsert_Click(object sender, RoutedEventArgs e)
         {
-            if (cbOne.SelectedValue == "")
+            if (cbOne.SelectedValue == " ")
             {
                 System.Windows.MessageBox.Show("Ошибка1?", "Вы не выбрали значение 1", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
-            if (cbTy.SelectedValue == "")
+            if (cbTy.SelectedValue == " ")
             {
                 System.Windows.MessageBox.Show("Ошибка2?", "Вы не выбрали значение 2 ", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
-            if (tbText.Text == "")
+            if (tbText.Text == " ")
             {
                 System.Windows.MessageBox.Show("Ошибка3?", "Вы не ввели значение ", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
@@ -114,7 +115,7 @@ namespace MptHelperDisShed
                 }
                 catch
                 {
-                    MessageBox.Show("Haha");
+                    MessageBox.Show("Проверьте правильность введенных данных");
                 }
             }
         }
@@ -133,26 +134,33 @@ namespace MptHelperDisShed
             }
             catch
             {
-                MessageBox.Show("Haha");
+                MessageBox.Show("Ошибка");
             }
         }
 
         private void btDelete_Click(object sender, RoutedEventArgs e)
         {
-            switch (System.Windows.MessageBox.Show("Удалить запись?", "Удаление записи", MessageBoxButton.YesNo, MessageBoxImage.Warning))
+            try
             {
-                case MessageBoxResult.Yes:
-                    DataRowView ID = (DataRowView)dgDistribution.SelectedItems[0];
-                    try
-                    {
-                        procedures.spdistribution_delete(Convert.ToInt32(ID["ID_Distribution"]));
-                        dgFill(QR);
-                    }
-                    catch
-                    {
-                        MessageBox.Show("Haha");
-                    }
-                    break;
+                switch (System.Windows.MessageBox.Show("Удалить запись?", "Удаление записи", MessageBoxButton.YesNo, MessageBoxImage.Warning))
+                {
+                    case MessageBoxResult.Yes:
+                        DataRowView ID = (DataRowView)dgDistribution.SelectedItems[0];
+                        try
+                        {
+                            procedures.spdistribution_delete(Convert.ToInt32(ID["ID_Distribution"]));
+                            dgFill(QR);
+                        }
+                        catch
+                        {
+                            MessageBox.Show("Ошибка");
+                        }
+                        break;
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка");
             }
         }
 
@@ -238,6 +246,12 @@ namespace MptHelperDisShed
                     dgDistribution.SelectedItem = dataRow;
                 }
             }
+        }
+
+
+        private void Hyperlink_Click(object sender, RoutedEventArgs e)
+        {
+            Process.Start("https://vk.com/away.php?to=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfBSqRS_Oo_ALXWia4HmIhSf-hbhy2vZxzOsdQZPBltQ4UlYw%2Fviewform%3Fusp%3Dsf_link&cc_key=");
         }
     }
 }

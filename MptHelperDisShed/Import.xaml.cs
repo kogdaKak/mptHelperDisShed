@@ -75,7 +75,7 @@ namespace MptHelperDisShed
                     _Worksheet list_11 = (_Worksheet)xlWorkbook.Sheets[1];//Получаем 1 лист
                     Range xlRange_11 = list_11.UsedRange;//Получаем используемый сектор ячеек в листе
                     string authors;
-                    while (rowS <= 13)
+                    while (rowS <= 96)
                     {
                         while (cellS <= 9)
                         {
@@ -250,7 +250,7 @@ namespace MptHelperDisShed
                     _Worksheet list_11 = (_Worksheet)xlWorkbook.Sheets[2];//Получаем 2 лист
                     Range xlRange_11 = list_11.UsedRange;//Получаем используемый сектор ячеек в листе
                     string authors;
-                    while (rowS <= 13)
+                    while (rowS <= 96)
                     {
                         while (cellS <= 9)
                         {
@@ -431,7 +431,7 @@ namespace MptHelperDisShed
                     _Worksheet list_11 = (_Worksheet)xlWorkbook.Sheets[3];//Получаем 3 лист
                     Range xlRange_11 = list_11.UsedRange;//Получаем используемый сектор ячеек в листе
                     string authors;
-                    while (rowS <= 13)
+                    while (rowS <= 96)
                     {
                         while (cellS <= 9)
                         {
@@ -613,7 +613,7 @@ namespace MptHelperDisShed
                     _Worksheet list_11 = (_Worksheet)xlWorkbook.Sheets[4];//Получаем 4 лист
                     Range xlRange_11 = list_11.UsedRange;//Получаем используемый сектор ячеек в листе
                     string authors;
-                    while (rowS <= 13)
+                    while (rowS <= 96)
                     {
                         while (cellS <= 9)
                         {

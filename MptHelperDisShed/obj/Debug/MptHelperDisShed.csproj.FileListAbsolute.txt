@@ -15,3 +15,10 @@ C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperD
 C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed.pdb
 C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\Distributon.g.cs
 C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\Distributon.baml
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\bin\Debug\MaterialDesignColors.dll
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\App.baml
+C:\Users\Dmitry.DMITROVDIMAA\Desktop\Diplom\PRogramm\MptHelperDisShed\MptHelperDisShed\MptHelperDisShed\obj\Debug\MptHelperDisShed.csproj.CopyComplete
